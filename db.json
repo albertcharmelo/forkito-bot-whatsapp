@@ -1,0 +1,947 @@
+[
+  {
+    "ref": "1ab8eb89-2ce2-4573-a07d-bce39344831a",
+    "answer": "ayuda",
+    "options": {},
+    "from": "584243075689",
+    "refSerialize": "f0f1c6acf2a0638a202abccd094da30e"
+  },
+  {
+    "ref": "ans_d0781254-2c10-48ef-b545-d174c2564dd9",
+    "keyword": "key_77e05740-a7ab-4eb3-abef-974aa5874c51",
+    "answer": "Hola! Me llamo Forkito y me gustaria enviarle información  sobre nuestra oferta de Menús para Grupos y Eventos. Además de la información puedo ayudarle también enviandole un enlace para que usted personalmente decida el Menú o puedo enviarle un enlace para que todos los invitados voten el Menú que quiere la mayoría.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "bcc0e7b22ed797cdb5180a5321140ec1",
+    "from": "584243075689"
+  },
+  {
+    "ref": "ans_9aa8d54d-c8f7-41dc-bc3e-a96d581b32df",
+    "keyword": "ans_d0781254-2c10-48ef-b545-d174c2564dd9",
+    "answer": "¿Desea que le envíe la información de nuestros Menús? Responda Si o No",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_5456dc42-30fb-489c-9c70-a0fb651e9ef7",
+          "keyword": [
+            "FLOW_INFO_MENU_NO"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "37859477486cbbb36893adfe44721822"
+        },
+        {
+          "ref": "ans_c8822503-2cc3-448a-92bf-ac1ace42763c",
+          "keyword": "key_5456dc42-30fb-489c-9c70-a0fb651e9ef7",
+          "answer": "Siento no haber podido ayudarle, le transmitiré esta información a mis compañeros del Restaurante y en cuanto puedan le contactaran. Si en otro momento desea que vuelva a ayudarle solo tiene que escribir en el chat la palabra AYUDA. Feliz Día ",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0e5c1533e3861276fb1969b9b9c6a7bc"
+        },
+        {
+          "ref": "key_4e79900b-eba4-4f6f-ad55-d5a9970a47e0",
+          "keyword": [
+            "FLOW_INFO_MENU_SI"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "decd43fc209a4218d00cb92148a903df"
+        },
+        {
+          "ref": "ans_b5bb5c8c-e21e-418b-bebe-0b417a11e12b",
+          "keyword": "key_4e79900b-eba4-4f6f-ad55-d5a9970a47e0",
+          "answer": "¿Usted va a Elegir el Tipo de Menú de todo el Evento? Responda Si o No",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_e2ef72d6-c42b-4366-853b-058cd16f7928",
+                "keyword": [
+                  "FLOW_TIPO_MENU_SI"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "fb035c97600638f62e179672c70322af"
+              },
+              {
+                "ref": "ans_d20a4d5d-fd89-4fb1-b2b7-a319d882cc69",
+                "keyword": "key_e2ef72d6-c42b-4366-853b-058cd16f7928",
+                "answer": "Fenomenal 👍, le voy a enviar ahora un enlace con todas las opciones que tenemos para que usted lo vea tranquilamente y cuando lo tenga me escribe el siguente texto: *MENU ELEGIDO*  Y volvemos a hablar",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "61461dc0007e967137909d2a21536256"
+              },
+              {
+                "ref": "ans_eb34364a-2dbc-466b-b63d-78feac6677bd",
+                "keyword": "ans_d20a4d5d-fd89-4fb1-b2b7-a319d882cc69",
+                "answer": "https://lapoza.es/eventos/",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [
+                    {
+                      "ref": "key_084f7b17-1c50-4b22-8184-a4845ec9795a",
+                      "keyword": [
+                        "FLOW_MENU_ELEGIDO"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "e17177766ba94f97695f39508bed2d35"
+                    },
+                    {
+                      "ref": "ans_68a1c432-9565-4a8e-9a8b-a9b57d633935",
+                      "keyword": "key_084f7b17-1c50-4b22-8184-a4845ec9795a",
+                      "answer": "Que bueno que selecciono un menu",
+                      "options": {
+                        "media": null,
+                        "buttons": [],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "idle": null,
+                        "ref": null,
+                        "nested": [],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "79d40f64f4a5ccffc1e2d0e9aa31a9f0"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "ff762a06fb5e0e9109fe882d3bce9480"
+              },
+              {
+                "ref": "key_cb51d85c-cece-4ba3-a408-cffc4776005c",
+                "keyword": [
+                  "FLOW_TIPO_MENU_NO"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "c73b5880b2febad24c13e536fd4d2299"
+              },
+              {
+                "ref": "ans_3ca47406-3b5c-4503-9408-bbd8f554aca1",
+                "keyword": "key_cb51d85c-cece-4ba3-a408-cffc4776005c",
+                "answer": "Fenomenal 👍, le voy a enviar DOS enlaces.\n1️⃣ es el que puede compartir con todos los invitados en donde se pueden ver todos los Menús que tenemos y cada invitado puede votar cual es el que prefiere. Así se elige el Tipo de Menú que quiere la mayoría\n2️⃣ enlace para usted como organizador en el que va a poder ver las elecciones de cada invitado y podrá dar el Resultado Final.Una vez tenga claro el Resultado puede volver a escribirme indicando el texto: *MENU ELEGIDO*",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "2a14e0a30643bf79ef16e22db13079e8"
+              }
+            ],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "529db1ef113014bb335bfdb524ef98d3"
+        },
+        {
+          "ref": "key_de04dc47-ee23-48dc-9a1c-970cd8c1d767",
+          "keyword": [
+            "FLOW_USER_DATA"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "526f4e0ebcd4f5663a6dcb385e1e0f3f"
+        },
+        {
+          "ref": "ans_9eb1abed-34f0-4fda-ac0c-550138b45f03",
+          "keyword": "key_de04dc47-ee23-48dc-9a1c-970cd8c1d767",
+          "answer": "Perfecto, Nos indica su nombre, por favor?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_c72289e8-a6aa-4211-92f0-d582e6cf191f",
+                "keyword": [
+                  "FLOW_USER_DATA_EMAIL"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "eb406ebe6c575e2f6ac03344a525e853"
+              },
+              {
+                "ref": "ans_0bb34523-97b6-445e-8d21-3a0789c7ce51",
+                "keyword": "key_c72289e8-a6aa-4211-92f0-d582e6cf191f",
+                "answer": "Perfecto, Nos indica su email, por favor?",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": true,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [
+                    {
+                      "ref": "key_4e79900b-eba4-4f6f-ad55-d5a9970a47e0",
+                      "keyword": [
+                        "FLOW_INFO_MENU_SI"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "decd43fc209a4218d00cb92148a903df"
+                    },
+                    {
+                      "ref": "ans_b5bb5c8c-e21e-418b-bebe-0b417a11e12b",
+                      "keyword": "key_4e79900b-eba4-4f6f-ad55-d5a9970a47e0",
+                      "answer": "¿Usted va a Elegir el Tipo de Menú de todo el Evento? Responda Si o No",
+                      "options": {
+                        "media": null,
+                        "buttons": [],
+                        "capture": true,
+                        "child": null,
+                        "delay": 0,
+                        "idle": null,
+                        "ref": null,
+                        "nested": [
+                          {
+                            "ref": "key_e2ef72d6-c42b-4366-853b-058cd16f7928",
+                            "keyword": [
+                              "FLOW_TIPO_MENU_SI"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "fb035c97600638f62e179672c70322af"
+                          },
+                          {
+                            "ref": "ans_d20a4d5d-fd89-4fb1-b2b7-a319d882cc69",
+                            "keyword": "key_e2ef72d6-c42b-4366-853b-058cd16f7928",
+                            "answer": "Fenomenal 👍, le voy a enviar ahora un enlace con todas las opciones que tenemos para que usted lo vea tranquilamente y cuando lo tenga me escribe el siguente texto: *MENU ELEGIDO*  Y volvemos a hablar",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "idle": null,
+                              "ref": null,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "61461dc0007e967137909d2a21536256"
+                          },
+                          {
+                            "ref": "ans_eb34364a-2dbc-466b-b63d-78feac6677bd",
+                            "keyword": "ans_d20a4d5d-fd89-4fb1-b2b7-a319d882cc69",
+                            "answer": "https://lapoza.es/eventos/",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "idle": null,
+                              "ref": null,
+                              "nested": [
+                                {
+                                  "ref": "key_084f7b17-1c50-4b22-8184-a4845ec9795a",
+                                  "keyword": [
+                                    "FLOW_MENU_ELEGIDO"
+                                  ],
+                                  "options": {
+                                    "sensitive": false,
+                                    "regex": false
+                                  },
+                                  "refSerialize": "e17177766ba94f97695f39508bed2d35"
+                                },
+                                {
+                                  "ref": "ans_68a1c432-9565-4a8e-9a8b-a9b57d633935",
+                                  "keyword": "key_084f7b17-1c50-4b22-8184-a4845ec9795a",
+                                  "answer": "Que bueno que selecciono un menu",
+                                  "options": {
+                                    "media": null,
+                                    "buttons": [],
+                                    "capture": false,
+                                    "child": null,
+                                    "delay": 0,
+                                    "idle": null,
+                                    "ref": null,
+                                    "nested": [],
+                                    "keyword": {},
+                                    "callback": false
+                                  },
+                                  "refSerialize": "79d40f64f4a5ccffc1e2d0e9aa31a9f0"
+                                }
+                              ],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "ff762a06fb5e0e9109fe882d3bce9480"
+                          },
+                          {
+                            "ref": "key_cb51d85c-cece-4ba3-a408-cffc4776005c",
+                            "keyword": [
+                              "FLOW_TIPO_MENU_NO"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "c73b5880b2febad24c13e536fd4d2299"
+                          },
+                          {
+                            "ref": "ans_3ca47406-3b5c-4503-9408-bbd8f554aca1",
+                            "keyword": "key_cb51d85c-cece-4ba3-a408-cffc4776005c",
+                            "answer": "Fenomenal 👍, le voy a enviar DOS enlaces.\n1️⃣ es el que puede compartir con todos los invitados en donde se pueden ver todos los Menús que tenemos y cada invitado puede votar cual es el que prefiere. Así se elige el Tipo de Menú que quiere la mayoría\n2️⃣ enlace para usted como organizador en el que va a poder ver las elecciones de cada invitado y podrá dar el Resultado Final.Una vez tenga claro el Resultado puede volver a escribirme indicando el texto: *MENU ELEGIDO*",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "idle": null,
+                              "ref": null,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": true
+                            },
+                            "refSerialize": "2a14e0a30643bf79ef16e22db13079e8"
+                          }
+                        ],
+                        "keyword": {},
+                        "callback": true
+                      },
+                      "refSerialize": "529db1ef113014bb335bfdb524ef98d3"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "bc50fe7d0fe10f835563b0bca4ac9909"
+              }
+            ],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "97f2cd500259c9e81842ada508d935ee"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "59607469d97c0065bd3d6ba42472572d",
+    "from": "584243075689"
+  },
+  {
+    "ref": "ad49bea5-3421-41d4-bea3-d8ea54e4126f",
+    "keyword": "59607469d97c0065bd3d6ba42472572d",
+    "answer": "si",
+    "options": {},
+    "from": "584243075689",
+    "refSerialize": "715ca38ec28b8dabb30e75e511c57a3a"
+  },
+  {
+    "ref": "ans_9eb1abed-34f0-4fda-ac0c-550138b45f03",
+    "keyword": "key_de04dc47-ee23-48dc-9a1c-970cd8c1d767",
+    "answer": "Perfecto, Nos indica su nombre, por favor?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_c72289e8-a6aa-4211-92f0-d582e6cf191f",
+          "keyword": [
+            "FLOW_USER_DATA_EMAIL"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "eb406ebe6c575e2f6ac03344a525e853"
+        },
+        {
+          "ref": "ans_0bb34523-97b6-445e-8d21-3a0789c7ce51",
+          "keyword": "key_c72289e8-a6aa-4211-92f0-d582e6cf191f",
+          "answer": "Perfecto, Nos indica su email, por favor?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_4e79900b-eba4-4f6f-ad55-d5a9970a47e0",
+                "keyword": [
+                  "FLOW_INFO_MENU_SI"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "decd43fc209a4218d00cb92148a903df"
+              },
+              {
+                "ref": "ans_b5bb5c8c-e21e-418b-bebe-0b417a11e12b",
+                "keyword": "key_4e79900b-eba4-4f6f-ad55-d5a9970a47e0",
+                "answer": "¿Usted va a Elegir el Tipo de Menú de todo el Evento? Responda Si o No",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": true,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [
+                    {
+                      "ref": "key_e2ef72d6-c42b-4366-853b-058cd16f7928",
+                      "keyword": [
+                        "FLOW_TIPO_MENU_SI"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "fb035c97600638f62e179672c70322af"
+                    },
+                    {
+                      "ref": "ans_d20a4d5d-fd89-4fb1-b2b7-a319d882cc69",
+                      "keyword": "key_e2ef72d6-c42b-4366-853b-058cd16f7928",
+                      "answer": "Fenomenal 👍, le voy a enviar ahora un enlace con todas las opciones que tenemos para que usted lo vea tranquilamente y cuando lo tenga me escribe el siguente texto: *MENU ELEGIDO*  Y volvemos a hablar",
+                      "options": {
+                        "media": null,
+                        "buttons": [],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "idle": null,
+                        "ref": null,
+                        "nested": [],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "61461dc0007e967137909d2a21536256"
+                    },
+                    {
+                      "ref": "ans_eb34364a-2dbc-466b-b63d-78feac6677bd",
+                      "keyword": "ans_d20a4d5d-fd89-4fb1-b2b7-a319d882cc69",
+                      "answer": "https://lapoza.es/eventos/",
+                      "options": {
+                        "media": null,
+                        "buttons": [],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "idle": null,
+                        "ref": null,
+                        "nested": [
+                          {
+                            "ref": "key_084f7b17-1c50-4b22-8184-a4845ec9795a",
+                            "keyword": [
+                              "FLOW_MENU_ELEGIDO"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "e17177766ba94f97695f39508bed2d35"
+                          },
+                          {
+                            "ref": "ans_68a1c432-9565-4a8e-9a8b-a9b57d633935",
+                            "keyword": "key_084f7b17-1c50-4b22-8184-a4845ec9795a",
+                            "answer": "Que bueno que selecciono un menu",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "idle": null,
+                              "ref": null,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "79d40f64f4a5ccffc1e2d0e9aa31a9f0"
+                          }
+                        ],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "ff762a06fb5e0e9109fe882d3bce9480"
+                    },
+                    {
+                      "ref": "key_cb51d85c-cece-4ba3-a408-cffc4776005c",
+                      "keyword": [
+                        "FLOW_TIPO_MENU_NO"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "c73b5880b2febad24c13e536fd4d2299"
+                    },
+                    {
+                      "ref": "ans_3ca47406-3b5c-4503-9408-bbd8f554aca1",
+                      "keyword": "key_cb51d85c-cece-4ba3-a408-cffc4776005c",
+                      "answer": "Fenomenal 👍, le voy a enviar DOS enlaces.\n1️⃣ es el que puede compartir con todos los invitados en donde se pueden ver todos los Menús que tenemos y cada invitado puede votar cual es el que prefiere. Así se elige el Tipo de Menú que quiere la mayoría\n2️⃣ enlace para usted como organizador en el que va a poder ver las elecciones de cada invitado y podrá dar el Resultado Final.Una vez tenga claro el Resultado puede volver a escribirme indicando el texto: *MENU ELEGIDO*",
+                      "options": {
+                        "media": null,
+                        "buttons": [],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "idle": null,
+                        "ref": null,
+                        "nested": [],
+                        "keyword": {},
+                        "callback": true
+                      },
+                      "refSerialize": "2a14e0a30643bf79ef16e22db13079e8"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "529db1ef113014bb335bfdb524ef98d3"
+              }
+            ],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "bc50fe7d0fe10f835563b0bca4ac9909"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "from": "584243075689"
+  },
+  {
+    "ref": "3150e88d-4ce2-4f44-9a5c-70826291cf96",
+    "answer": "Albert Charmelo",
+    "options": {},
+    "from": "584243075689",
+    "refSerialize": "b46a4f26e446e76d8aac32b932bb18cb"
+  },
+  {
+    "ref": "ans_0bb34523-97b6-445e-8d21-3a0789c7ce51",
+    "keyword": "key_c72289e8-a6aa-4211-92f0-d582e6cf191f",
+    "answer": "Perfecto, Nos indica su email, por favor?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_4e79900b-eba4-4f6f-ad55-d5a9970a47e0",
+          "keyword": [
+            "FLOW_INFO_MENU_SI"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "decd43fc209a4218d00cb92148a903df"
+        },
+        {
+          "ref": "ans_b5bb5c8c-e21e-418b-bebe-0b417a11e12b",
+          "keyword": "key_4e79900b-eba4-4f6f-ad55-d5a9970a47e0",
+          "answer": "¿Usted va a Elegir el Tipo de Menú de todo el Evento? Responda Si o No",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_e2ef72d6-c42b-4366-853b-058cd16f7928",
+                "keyword": [
+                  "FLOW_TIPO_MENU_SI"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "fb035c97600638f62e179672c70322af"
+              },
+              {
+                "ref": "ans_d20a4d5d-fd89-4fb1-b2b7-a319d882cc69",
+                "keyword": "key_e2ef72d6-c42b-4366-853b-058cd16f7928",
+                "answer": "Fenomenal 👍, le voy a enviar ahora un enlace con todas las opciones que tenemos para que usted lo vea tranquilamente y cuando lo tenga me escribe el siguente texto: *MENU ELEGIDO*  Y volvemos a hablar",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "61461dc0007e967137909d2a21536256"
+              },
+              {
+                "ref": "ans_eb34364a-2dbc-466b-b63d-78feac6677bd",
+                "keyword": "ans_d20a4d5d-fd89-4fb1-b2b7-a319d882cc69",
+                "answer": "https://lapoza.es/eventos/",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [
+                    {
+                      "ref": "key_084f7b17-1c50-4b22-8184-a4845ec9795a",
+                      "keyword": [
+                        "FLOW_MENU_ELEGIDO"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "e17177766ba94f97695f39508bed2d35"
+                    },
+                    {
+                      "ref": "ans_68a1c432-9565-4a8e-9a8b-a9b57d633935",
+                      "keyword": "key_084f7b17-1c50-4b22-8184-a4845ec9795a",
+                      "answer": "Que bueno que selecciono un menu",
+                      "options": {
+                        "media": null,
+                        "buttons": [],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "idle": null,
+                        "ref": null,
+                        "nested": [],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "79d40f64f4a5ccffc1e2d0e9aa31a9f0"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "ff762a06fb5e0e9109fe882d3bce9480"
+              },
+              {
+                "ref": "key_cb51d85c-cece-4ba3-a408-cffc4776005c",
+                "keyword": [
+                  "FLOW_TIPO_MENU_NO"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "c73b5880b2febad24c13e536fd4d2299"
+              },
+              {
+                "ref": "ans_3ca47406-3b5c-4503-9408-bbd8f554aca1",
+                "keyword": "key_cb51d85c-cece-4ba3-a408-cffc4776005c",
+                "answer": "Fenomenal 👍, le voy a enviar DOS enlaces.\n1️⃣ es el que puede compartir con todos los invitados en donde se pueden ver todos los Menús que tenemos y cada invitado puede votar cual es el que prefiere. Así se elige el Tipo de Menú que quiere la mayoría\n2️⃣ enlace para usted como organizador en el que va a poder ver las elecciones de cada invitado y podrá dar el Resultado Final.Una vez tenga claro el Resultado puede volver a escribirme indicando el texto: *MENU ELEGIDO*",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "2a14e0a30643bf79ef16e22db13079e8"
+              }
+            ],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "529db1ef113014bb335bfdb524ef98d3"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "from": "584243075689"
+  },
+  {
+    "ref": "2beb53d7-409f-44eb-a7fb-cf73762eb442",
+    "answer": "albertcharmelo@gmail.com",
+    "options": {},
+    "from": "584243075689",
+    "refSerialize": "f88cacfc752a36916a9be81f86899360"
+  },
+  {
+    "ref": "ans_b5bb5c8c-e21e-418b-bebe-0b417a11e12b",
+    "keyword": "key_4e79900b-eba4-4f6f-ad55-d5a9970a47e0",
+    "answer": "¿Usted va a Elegir el Tipo de Menú de todo el Evento? Responda Si o No",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_e2ef72d6-c42b-4366-853b-058cd16f7928",
+          "keyword": [
+            "FLOW_TIPO_MENU_SI"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "fb035c97600638f62e179672c70322af"
+        },
+        {
+          "ref": "ans_d20a4d5d-fd89-4fb1-b2b7-a319d882cc69",
+          "keyword": "key_e2ef72d6-c42b-4366-853b-058cd16f7928",
+          "answer": "Fenomenal 👍, le voy a enviar ahora un enlace con todas las opciones que tenemos para que usted lo vea tranquilamente y cuando lo tenga me escribe el siguente texto: *MENU ELEGIDO*  Y volvemos a hablar",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "61461dc0007e967137909d2a21536256"
+        },
+        {
+          "ref": "ans_eb34364a-2dbc-466b-b63d-78feac6677bd",
+          "keyword": "ans_d20a4d5d-fd89-4fb1-b2b7-a319d882cc69",
+          "answer": "https://lapoza.es/eventos/",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_084f7b17-1c50-4b22-8184-a4845ec9795a",
+                "keyword": [
+                  "FLOW_MENU_ELEGIDO"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "e17177766ba94f97695f39508bed2d35"
+              },
+              {
+                "ref": "ans_68a1c432-9565-4a8e-9a8b-a9b57d633935",
+                "keyword": "key_084f7b17-1c50-4b22-8184-a4845ec9795a",
+                "answer": "Que bueno que selecciono un menu",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "79d40f64f4a5ccffc1e2d0e9aa31a9f0"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "ff762a06fb5e0e9109fe882d3bce9480"
+        },
+        {
+          "ref": "key_cb51d85c-cece-4ba3-a408-cffc4776005c",
+          "keyword": [
+            "FLOW_TIPO_MENU_NO"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "c73b5880b2febad24c13e536fd4d2299"
+        },
+        {
+          "ref": "ans_3ca47406-3b5c-4503-9408-bbd8f554aca1",
+          "keyword": "key_cb51d85c-cece-4ba3-a408-cffc4776005c",
+          "answer": "Fenomenal 👍, le voy a enviar DOS enlaces.\n1️⃣ es el que puede compartir con todos los invitados en donde se pueden ver todos los Menús que tenemos y cada invitado puede votar cual es el que prefiere. Así se elige el Tipo de Menú que quiere la mayoría\n2️⃣ enlace para usted como organizador en el que va a poder ver las elecciones de cada invitado y podrá dar el Resultado Final.Una vez tenga claro el Resultado puede volver a escribirme indicando el texto: *MENU ELEGIDO*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "2a14e0a30643bf79ef16e22db13079e8"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "from": "584243075689"
+  },
+  {
+    "ref": "97771cd5-d0c7-4bfd-87b8-5c3c135cd35c",
+    "answer": "no",
+    "options": {},
+    "from": "584243075689",
+    "refSerialize": "196d1c4297b3cc409a816659f65c2beb"
+  },
+  {
+    "ref": "ans_3ca47406-3b5c-4503-9408-bbd8f554aca1",
+    "keyword": "key_cb51d85c-cece-4ba3-a408-cffc4776005c",
+    "answer": "Fenomenal 👍, le voy a enviar DOS enlaces.\n1️⃣ es el que puede compartir con todos los invitados en donde se pueden ver todos los Menús que tenemos y cada invitado puede votar cual es el que prefiere. Así se elige el Tipo de Menú que quiere la mayoría\n2️⃣ enlace para usted como organizador en el que va a poder ver las elecciones de cada invitado y podrá dar el Resultado Final.Una vez tenga claro el Resultado puede volver a escribirme indicando el texto: *MENU ELEGIDO*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "from": "584243075689"
+  },
+  {
+    "ref": "5134b9e9-4846-4249-9576-890c2b95a08c",
+    "keyword": null,
+    "answer": "Link de Votacion: https://eventos.lapoza.es/votacion/9b426a7e-ddf7-4c2f-a413-d9ebc687341e",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "584243075689",
+    "refSerialize": "da82a80ecab5ebd1636e18d1452b25fc"
+  },
+  {
+    "ref": "dbba71f2-62b0-4f06-a128-6ed987382179",
+    "keyword": null,
+    "answer": "Link de Organizador: https://eventos.lapoza.es/votacion/9b426a7e-ddf7-4c2f-a413-d9ebc687341e",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "584243075689",
+    "refSerialize": "6491476148c532ba889d9f2580519ab8"
+  }
+]
