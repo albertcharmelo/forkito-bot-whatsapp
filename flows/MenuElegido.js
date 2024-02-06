@@ -1,5 +1,4 @@
 const { addKeyword } = require("@bot-whatsapp/bot");
-const { flowPrincipal } = require("../app");
 
 const RegisterEleccion = async (url, eleccion) => {
   await fetch("https://lapoza.es/api/votacion", {
@@ -170,7 +169,7 @@ const FlowMenuElegido = addKeyword([
 
     endFlow({ body: "Para volver a iniciar la conversación escriba *AYUDA*" });
   },
-  [flowPrincipal]
+  []
 );
 
 module.exports = {
