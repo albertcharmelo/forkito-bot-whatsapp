@@ -42,7 +42,7 @@ const FlowElegirTipoMenuNo = addKeyword(["FLOW_TIPO_MENU_NO"]).addAnswer(
       },
     ]);
   },
-  []
+  [FlowMenuElegido]
 );
 
 module.exports = {
