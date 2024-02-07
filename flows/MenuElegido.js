@@ -24,20 +24,24 @@ const FlowElegidoSinURL = addKeyword([
   { capture: true },
   async (ctx, { gotoFlow, fallback, flowDynamic, state, endFlow }) => {
     if (
-      !ctx.body == "1" ||
-      !ctx.body == "2" ||
-      !ctx.body == "3" ||
-      !ctx.body == "4" ||
-      !ctx.body == "5" ||
-      !ctx.body == "6" ||
-      !ctx.body == "7" ||
-      !ctx.body == "8" ||
-      !ctx.body == "9" ||
+      !ctx.body == "1" &&
+      !ctx.body == "2" &&
+      !ctx.body == "3" &&
+      !ctx.body == "4" &&
+      !ctx.body == "5" &&
+      !ctx.body == "6" &&
+      !ctx.body == "7" &&
+      !ctx.body == "8" &&
+      !ctx.body == "9" &&
       !ctx.body == "10"
     ) {
+      await flowDynamic([
+        {
+          body: `No se ha seleccionado ningún menú, por favor seleccione un menú del 1 al 10 para continuar con el proceso de elección del menú del evento`,
+        },
+      ]);
       return fallback();
     }
-
     if (ctx.body == "1") {
       state.update({
         menuElegido: "Menú PicaPizza",
@@ -193,20 +197,25 @@ const FlowMenuElegido = addKeyword([
         }
       );
 
-      console.log(response);
+      return response.json();
     };
     if (
-      !ctx.body == "1" ||
-      !ctx.body == "2" ||
-      !ctx.body == "3" ||
-      !ctx.body == "4" ||
-      !ctx.body == "5" ||
-      !ctx.body == "6" ||
-      !ctx.body == "7" ||
-      !ctx.body == "8" ||
-      !ctx.body == "9" ||
+      !ctx.body == "1" &&
+      !ctx.body == "2" &&
+      !ctx.body == "3" &&
+      !ctx.body == "4" &&
+      !ctx.body == "5" &&
+      !ctx.body == "6" &&
+      !ctx.body == "7" &&
+      !ctx.body == "8" &&
+      !ctx.body == "9" &&
       !ctx.body == "10"
     ) {
+      await flowDynamic([
+        {
+          body: `No se ha seleccionado ningún menú, por favor seleccione un menú del 1 al 10 para continuar con el proceso de elección del menú del evento`,
+        },
+      ]);
       return fallback();
     }
 

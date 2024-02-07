@@ -28,9 +28,9 @@ const flowPrincipal = addKeyword([
     "Hola! Me llamo Forkito y me gustaria enviarle información  sobre nuestra oferta de Menús para Grupos y Eventos. Además de la información puedo ayudarle también enviandole un enlace para que usted personalmente decida el Menú o puedo enviarle un enlace para que todos los invitados voten el Menú que quiere la mayoría."
   )
   .addAnswer(
-    "¿Desea que le envíe la información de nuestros Menús? Responda Si o No",
+    "¿Desea que le envíe la información de nuestros Menús? Responda *Si* o *No*",
     { capture: true },
-    (ctx, { gotoFlow, fallBack }) => {
+    (ctx, { gotoFlow, fallBack, flowDynamic }) => {
       if (
         ctx.body != "si" &&
         ctx.body != "no" &&
@@ -43,6 +43,11 @@ const flowPrincipal = addKeyword([
         ctx.body != "sI" &&
         ctx.body != "nO"
       ) {
+        flowDynamic([
+          {
+            body: `No he entendido su respuesta, por favor responda *Si* o *No*`,
+          },
+        ]);
         return fallBack();
       }
 
