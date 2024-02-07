@@ -35,7 +35,11 @@ const FlowElegirTipoMenuNo = addKeyword(["FLOW_TIPO_MENU_NO"]).addAnswer(
     ]);
 
     await flowDynamic([
-      { body: `Link de Organizador: ${state.get("linkMenuVotacion")}` },
+      {
+        body: `Link de Organizador: ${state.get(
+          "linkMenuVotacion"
+        )}/resultados`,
+      },
     ]);
   },
   []

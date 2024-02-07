@@ -4,7 +4,7 @@ const {
   createFlow,
   addKeyword,
 } = require("@bot-whatsapp/bot");
-
+const { EVENTS } = require("@bot-whatsapp/bot");
 const QRPortalWeb = require("@bot-whatsapp/portal");
 const BaileysProvider = require("@bot-whatsapp/provider/baileys");
 const JsonFileAdapter = require("@bot-whatsapp/database/json");
@@ -21,8 +21,8 @@ const flowPrincipal = addKeyword([
   "buenas noches",
   "ola",
   "hey",
-  "AYUDA",
   "ayuda",
+  EVENTS.WELCOME,
 ])
   .addAnswer(
     "Hola! Me llamo Forkito y me gustaria enviarle información  sobre nuestra oferta de Menús para Grupos y Eventos. Además de la información puedo ayudarle también enviandole un enlace para que usted personalmente decida el Menú o puedo enviarle un enlace para que todos los invitados voten el Menú que quiere la mayoría."

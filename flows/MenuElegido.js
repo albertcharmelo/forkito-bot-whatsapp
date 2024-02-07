@@ -1,15 +1,15 @@
 const { addKeyword } = require("@bot-whatsapp/bot");
 
 const RegisterEleccion = async (url, eleccion) => {
-  await fetch("https://lapoza.es/api/votacion", {
+  await fetch("https://lapoza.es/api/votacionMenus/elegirmenu", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({
-      url_votacion: url,
-      eleccion: eleccion,
-    }),
+    body: {
+      url: url,
+      menu_elegido: eleccion,
+    },
   });
 };
 
