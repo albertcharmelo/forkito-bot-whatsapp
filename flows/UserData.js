@@ -4,7 +4,11 @@ const { FlowInfoMenusSi } = require("./InfoMenu");
 const FlowUserDataEmail = addKeyword(["FLOW_USER_DATA_EMAIL"]).addAnswer(
   "Perfecto, Nos indica su email, por favor?",
   { capture: true },
-  async (ctx, { state, gotoFlow }) => {
+  async (ctx, { state, gotoFlow, fallBack }) => {
+    if (!ctx.body.includes("@")) {
+      return fallBack();
+    }
+
     await state.update({ email: ctx.body });
     console.log(state.getMyState());
     gotoFlow(FlowInfoMenusSi);

@@ -30,7 +30,22 @@ const flowPrincipal = addKeyword([
   .addAnswer(
     "¿Desea que le envíe la información de nuestros Menús? Responda Si o No",
     { capture: true },
-    (ctx, { gotoFlow }) => {
+    (ctx, { gotoFlow, fallBack }) => {
+      if (
+        ctx.body != "si" &&
+        ctx.body != "no" &&
+        ctx.body != "Si" &&
+        ctx.body != "No" &&
+        ctx.body != "SI" &&
+        ctx.body != "NO" &&
+        ctx.body != "sI" &&
+        ctx.body != "nO" &&
+        ctx.body != "sI" &&
+        ctx.body != "nO"
+      ) {
+        return fallBack();
+      }
+
       if (
         ctx.body == "si" ||
         ctx.body == "Si" ||

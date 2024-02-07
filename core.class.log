@@ -1,0 +1,397 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '584243075689@s.whatsapp.net',
+    fromMe: false,
+    id: '8B3DE8238EBE0502D8',
+    participant: undefined
+  },
+  messageTimestamp: 1707281306,
+  pushName: 'Albert Charmelo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'olis', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'olis',
+  from: '584243075689'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ddcc29dd-eb9c-4629-b9f8-9b7bfe9581b8',
+  keyword: 'key_9f76850d-f77a-4be9-9716-8b78849add95',
+  answer: 'Hola! Me llamo Forkito y me gustaria enviarle información  sobre nuestra oferta de Menús para Grupos y Eventos. Además de la información puedo ayudarle también enviandole un enlace para que usted personalmente decida el Menú o puedo enviarle un enlace para que todos los invitados voten el Menú que quiere la mayoría.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '57568fd9819b9cfc96190ec2305a0014'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_bf0363d3-432b-45f4-85a3-bf316e78920c',
+  keyword: 'ans_ddcc29dd-eb9c-4629-b9f8-9b7bfe9581b8',
+  answer: '¿Desea que le envíe la información de nuestros Menús? Responda Si o No',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7aec392db656eda98763e052f22738e2'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584243075689@s.whatsapp.net',
+    fromMe: false,
+    id: 'F149E3977702E2B9A2',
+    participant: undefined
+  },
+  messageTimestamp: 1707281309,
+  pushName: 'Albert Charmelo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'si', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'si',
+  from: '584243075689'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584243075689@s.whatsapp.net',
+    fromMe: false,
+    id: 'BEE90CDD3F0C83DBCB',
+    participant: undefined
+  },
+  messageTimestamp: 1707281313,
+  pushName: 'Albert Charmelo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Albert Charmelo',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Albert Charmelo',
+  from: '584243075689'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584243075689@s.whatsapp.net',
+    fromMe: false,
+    id: '5861DABEEBE4322B93',
+    participant: undefined
+  },
+  messageTimestamp: 1707281319,
+  pushName: 'Albert Charmelo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'acharmelo@gmail.com',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'acharmelo@gmail.com',
+  from: '584243075689'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584243075689@s.whatsapp.net',
+    fromMe: false,
+    id: '0F380F4E485549F8DE',
+    participant: undefined
+  },
+  messageTimestamp: 1707281329,
+  pushName: 'Albert Charmelo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'no', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'no',
+  from: '584243075689'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584243075689@s.whatsapp.net',
+    fromMe: false,
+    id: 'B28E6EE0C42F732C80',
+    participant: undefined
+  },
+  messageTimestamp: 1707281336,
+  pushName: 'Albert Charmelo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'menu elegido',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'menu elegido',
+  from: '584243075689'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2b3b8173-0755-4bb0-a3c6-494b064fad3e',
+  keyword: 'key_5c700ef9-cbed-456b-99fe-839764bf49b9',
+  answer: 'Fenomenal,  veo que ya ha elegido el Tipo de Menú de su Evento y por tanto le pido que me indique con un Número cual es. Los Menús Infantiles, Adolescentes o Especiales por Dietas los trataremos con los Invitados directamente si nos han dejado sus datos o en caso contrario le llamará a usted una persona del Restaurante para tratar este asunto A continuacion mire el siguente listado y conteste a este chat sólo con el número del Menú Elegido por favor\n' +
+    '1.- Menú PicaPizza\n' +
+    '2.- Menú PicaPizza con Extras\n' +
+    '3.- Menú PicaTapas \n' +
+    '4.- Menú PicaTapas con Extras\n' +
+    '5 - Menú Italiano\n' +
+    '6.- Menú Mediterráneo \n' +
+    '7.- Menú Eventos (30 / 35 / 40)\n' +
+    '8.- Menú Celebración 1\n' +
+    '9.- Menú Celebración 2\n' +
+    '10- Menú Celebración 3',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '715f571f58be74c6614feb6e67616fc7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584243075689@s.whatsapp.net',
+    fromMe: false,
+    id: '15ADFCAA0EE987031B',
+    participant: undefined
+  },
+  messageTimestamp: 1707281339,
+  pushName: 'Albert Charmelo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '4', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '4',
+  from: '584243075689'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584243075689@s.whatsapp.net',
+    fromMe: false,
+    id: 'E9D9B822BE3444484A1CBEF9E4F46279',
+    participant: undefined
+  },
+  messageTimestamp: 1707282613,
+  pushName: 'Albert Charmelo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '584243075689'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ddcc29dd-eb9c-4629-b9f8-9b7bfe9581b8',
+  keyword: 'key_9f76850d-f77a-4be9-9716-8b78849add95',
+  answer: 'Hola! Me llamo Forkito y me gustaria enviarle información  sobre nuestra oferta de Menús para Grupos y Eventos. Además de la información puedo ayudarle también enviandole un enlace para que usted personalmente decida el Menú o puedo enviarle un enlace para que todos los invitados voten el Menú que quiere la mayoría.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '57568fd9819b9cfc96190ec2305a0014'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_bf0363d3-432b-45f4-85a3-bf316e78920c',
+  keyword: 'ans_ddcc29dd-eb9c-4629-b9f8-9b7bfe9581b8',
+  answer: '¿Desea que le envíe la información de nuestros Menús? Responda Si o No',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7aec392db656eda98763e052f22738e2'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584243075689@s.whatsapp.net',
+    fromMe: false,
+    id: '1D4161AD6E14AA096517D1D224B77390',
+    participant: undefined
+  },
+  messageTimestamp: 1707282619,
+  pushName: 'Albert Charmelo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Si',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Si',
+  from: '584243075689'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584243075689@s.whatsapp.net',
+    fromMe: false,
+    id: '9CAE4F329AC5D8C9D5178DC791F016A3',
+    participant: undefined
+  },
+  messageTimestamp: 1707282623,
+  pushName: 'Albert Charmelo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Albert',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Albert',
+  from: '584243075689'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584243075689@s.whatsapp.net',
+    fromMe: false,
+    id: '6795A6A7FDFA54941F3DA068465C3686',
+    participant: undefined
+  },
+  messageTimestamp: 1707282627,
+  pushName: 'Albert Charmelo',
+  broadcast: false,
+  message: Message {
+    conversation: 'acharmelo99@gmail.com',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'acharmelo99@gmail.com',
+  from: '584243075689'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584243075689@s.whatsapp.net',
+    fromMe: false,
+    id: 'E409DCDFB6695E1B2381AC88F45D1FD6',
+    participant: undefined
+  },
+  messageTimestamp: 1707282643,
+  pushName: 'Albert Charmelo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Si',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Si',
+  from: '584243075689'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584243075689@s.whatsapp.net',
+    fromMe: false,
+    id: '819E833554FB63AA2D339AE9F4A2682F',
+    participant: undefined
+  },
+  messageTimestamp: 1707282660,
+  pushName: 'Albert Charmelo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu elegido',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menu elegido',
+  from: '584243075689'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2b3b8173-0755-4bb0-a3c6-494b064fad3e',
+  keyword: 'key_5c700ef9-cbed-456b-99fe-839764bf49b9',
+  answer: 'Fenomenal,  veo que ya ha elegido el Tipo de Menú de su Evento y por tanto le pido que me indique con un Número cual es. Los Menús Infantiles, Adolescentes o Especiales por Dietas los trataremos con los Invitados directamente si nos han dejado sus datos o en caso contrario le llamará a usted una persona del Restaurante para tratar este asunto A continuacion mire el siguente listado y conteste a este chat sólo con el número del Menú Elegido por favor\n' +
+    '1.- Menú PicaPizza\n' +
+    '2.- Menú PicaPizza con Extras\n' +
+    '3.- Menú PicaTapas \n' +
+    '4.- Menú PicaTapas con Extras\n' +
+    '5 - Menú Italiano\n' +
+    '6.- Menú Mediterráneo \n' +
+    '7.- Menú Eventos (30 / 35 / 40)\n' +
+    '8.- Menú Celebración 1\n' +
+    '9.- Menú Celebración 2\n' +
+    '10- Menú Celebración 3',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '715f571f58be74c6614feb6e67616fc7'
+}

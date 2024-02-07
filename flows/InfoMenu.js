@@ -7,7 +7,21 @@ const FlowInfoMenusSi = addKeyword(["FLOW_INFO_MENU_SI"]).addAnswer(
     capture: true,
   },
 
-  async (ctx, { gotoFlow }) => {
+  async (ctx, { gotoFlow, fallBack }) => {
+    if (
+      ctx.body != "si" &&
+      ctx.body != "no" &&
+      ctx.body != "Si" &&
+      ctx.body != "No" &&
+      ctx.body != "SI" &&
+      ctx.body != "NO" &&
+      ctx.body != "sI" &&
+      ctx.body != "nO" &&
+      ctx.body != "sI" &&
+      ctx.body != "nO"
+    ) {
+      return fallBack();
+    }
     if (
       ctx.body == "si" ||
       ctx.body == "Si" ||
